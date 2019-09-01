@@ -1,5 +1,7 @@
 # servicensw-bookings-availability
-Nightmare automation designed to pull earliest available time from RMS change bookings page and send an email notification
+Nightmare automation designed to pull earliest available time from Roads and Maritime Services (RMS) change bookings page and send an email notification.
+
+
 ## Screenshots
 ![Console log](https://github.com/FaizanH/servicensw-bookings-availability/blob/master/screenshots/days.PNG)
 
