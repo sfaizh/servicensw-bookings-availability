@@ -6,6 +6,6 @@ Nightmare automation designed to pull earliest available time from RMS change bo
 ![Email notification](https://github.com/FaizanH/servicensw-bookings-availability/blob/master/screenshots/email.PNG)
 
 ## To-do
-- [x] Add functionality to perform am - pm time arithmetic
+- [ ] Add functionality to perform am - pm time arithmetic
 
 ## Latest patch
