@@ -2,14 +2,14 @@ const Nightmare = require('nightmare')
 const nightmare = Nightmare()
 nightmare
   .goto('https://www.myrta.com/wps/portal/extvp/myrta/licence/tbs/tbs-change/!ut/p/b1/lc7fboIwFAbwZ_EBTP8p1MsiCN1EECyD3hBWWIODmm2OuLcf3pg')
-  .type('#widget_input_bookingId', '') # Your Booking ID here
-  .type('#widget_input_familyName', '') # Your Family Surname here
+  .type('#widget_input_bookingId', '15855885')
+  .type('#widget_input_familyName', 'HUSSAIN')
   .click('#submitNoLogin')
   .wait('#changeTimeButton_label')
   .click('#changeTimeButton_label')
   .wait('#getEarliestTime')
   .click('#getEarliestTime')
-  .wait(10000)
+  .wait(6000)
   .evaluate(() => {
       var availableSlotClass = document.querySelector(".available").parentNode.className;
       var availableDate = document.querySelector("."+availableSlotClass);
