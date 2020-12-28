@@ -91,7 +91,7 @@ while True:
                         #elif (((getTime1.split(' ',1)[1] == "am") and (getTime2.split(' ',1)[1] == "pm")) or ((getTime1.split(' ',1)[1] == "pm") and (getTime2.split(' ',1)[1] == "am"))): # not both am or pm
                                 # do required subtractions
                 else:
-                        print ("Latest date taken - Rollback day to earliest available")
+                        #print ("Latest date taken - Rollback day to earliest available")
                         data_prev = data_next
                         oldTime = newTime
                         #try:
@@ -114,7 +114,7 @@ while True:
         else:
                 # This use case only happens if the newest date retrieved has been filled and we are left with a later date.
                 
-		print ("Latest date taken - Rollback month to earliest available")
+		#print ("Latest date taken - Rollback month to earliest available")
                 data_prev = data_next
                 oldTime = newTime
                 #try:
