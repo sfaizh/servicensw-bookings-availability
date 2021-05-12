@@ -10,7 +10,7 @@
   "license": "ISC",
   "dependencies": {
     "electron": ">=7.2.4",
-    "lodash": ">=4.17.19",
+    "lodash": ">=4.17.21",
     "minimist": ">=1.2.3",
     "nightmare": "^3.0.2"
   }
